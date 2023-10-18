@@ -12,7 +12,7 @@
   
   }
   
-  #b-container {
+  .b-container {
     padding-top: 20%;
     grid-column: 6/12;
   }
@@ -279,7 +279,7 @@
       height: 37%;
       margin: 0 auto;
     }
-    #b-container{
+    .b-container{
       padding-top: 5%;
     }
     .a-container {
@@ -291,7 +291,7 @@
     
    }
    @media screen and (max-width: 767px){
-    #b-container{
+    .b-container{
       grid-column: 1/6;
     }
     .a-container {
@@ -322,7 +322,7 @@
     padding-bottom: 35px;  
   }
   
-  #b-container {
+  .b-container {
     padding-top: 10%;
   }
   

@@ -1,0 +1,15 @@
+@mixin hover-effect {
+    &:hover {
+      background: rgb(210, 139, 115);
+      border: 3px solid #ffffff;
+      border-radius: 15px;
+    }
+  }
+  
+ 
+  @mixin image-hover-effect {
+    &:hover {
+      transform: scale(1.2);
+      border-radius: 20px;
+    }
+  }

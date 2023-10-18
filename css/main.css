@@ -1,0 +1,344 @@
+#body {
+    background-color: rgb(44, 44, 56);
+  }
+  
+  #logo {
+    width: auto;
+    height: auto;
+    margin: -20px auto;
+    padding-top: 100px;
+    max-width: 170px;
+    min-width: 100px;
+  
+  }
+  
+  #b-container {
+    padding-top: 20%;
+    grid-column: 6/12;
+  }
+  #h1 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+    font-size: 48px;
+    padding-bottom: 10px;
+   
+    
+  }
+  #p{
+    color: white;
+    font-size: 18px;
+    word-spacing: 10px;
+    text-align:left;
+  }
+  
+  #p2{
+    color: white;
+    font-size: 18px;
+    word-spacing: 10px;
+    text-align:left;
+    padding-top: 40px;
+  }
+  #p4{
+    color: white;
+    font-size: 18px;
+    word-spacing: 10px;
+    text-align:left;
+    padding-top: 40px;
+  }
+  #h3 {
+    color: darksalmon;
+    font-size: 36px;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 25px;
+  }
+  
+  .highlight {
+    color: rgb(233, 150, 122);
+  }
+  
+  .a-container {
+    grid-column: 2/6;
+    justify-content: center;
+    line-height: 60px;
+    position:fixed;
+  }
+  
+  .a-container a {
+    text-decoration: none;
+    word-spacing: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  /* .social-icons {
+    grid-column: 1/5;
+    padding: 100px;
+    
+  } */
+  .social-icons {
+    padding: 0; 
+    display: flex;
+    list-style: none;
+  
+  }
+  
+  .social-icons li {
+    
+    margin-right: 10px; 
+  }
+  
+  #project-item {
+    display: grid;
+    border: 1px solid transparent; 
+    transition: border 0.3s;
+  }
+  
+  #project-container .grid-con:nth-child(2) {
+    margin: 90px auto;
+  }
+  
+  #project-item img{
+    
+    width: 100%;
+    height: 100px;
+    grid-column: 6/8;
+    grid-column: 1/5;
+    object-fit: fill;
+    margin: auto 0;
+  }
+  
+  #project-item-2 img{
+    
+    width: 100%;
+    height: 100px;
+    grid-column: 6/8;
+    grid-column: 1/5;
+    object-fit: fill;
+    margin: auto 0;
+  }
+  #project-item-3 img{
+    
+    width: 100%;
+    height: 100px;
+    grid-column: 6/8;
+    grid-column: 1/5;
+    object-fit: fill;
+    margin: auto 0;
+  }
+  
+  #project-item h1{
+    font-size: 26px;
+    color: white;
+    text-align: left;
+  
+  }
+  #project-item-2 h1{
+    font-size: 26px;
+    color: white;
+    text-align: left;
+  
+  }
+  #project-item-3 h1{
+    font-size: 26px;
+    color: white;
+    text-align: left;
+  
+  }
+  
+  #project-item p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    word-spacing: 7px;
+    
+  }
+  #project-item-2 p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    word-spacing: 7px;
+    
+  }
+  #project-item-3 p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    word-spacing: 7px;
+    
+  }
+  #project-description {
+    grid-column: 5/-1;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+  }
+  #project-description-1 {
+    grid-column: 5/-1;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+  }
+  #project-description-2 {
+    grid-column: 5/-1;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+  }
+  #project-item:hover{
+    background:rgb(210, 139, 115);
+    border: 3px solid #ffffff; 
+    border-radius: 15px;
+    
+  }
+  #project-item-2:hover{
+    background:rgb(210, 139, 115);
+    border: 3px solid #ffffff; 
+    border-radius: 15px;
+    
+  }
+  #project-item-3:hover{
+    background:rgb(210, 139, 115);
+    border: 3px solid #ffffff; 
+    border-radius: 15px;
+    
+  }
+  #project-item img:hover{
+   transform: scale(1.2);
+   border-radius: 20px;
+  }
+  #project-item-2 img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+   }
+   #project-item-3 img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+   }
+  #project-item-2{
+    margin: 90px 0;
+  }
+  
+  #about-container{
+    height: 42%;
+    margin: 0 auto;
+    
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 28px; /* Adjust the margin to control the space between icons */
+  }
+  .social-icons li:hover{
+    transform: scale(1.5);
+    transition-duration: 0.2s;
+  }
+  .social-icons i:hover {
+    color:rgb(210, 139, 115);
+  }
+  
+  #project-container{
+    padding-bottom: 90px;
+  }
+  
+  #p3{
+    color: white;
+    font-size: 18px;
+    word-spacing: 10px;
+    text-align:left;
+    padding-top: 40px;
+    
+  }
+  
+  #experience-container{
+    height: 100%;
+    padding-bottom: 160px;
+  }
+  
+  @media screen and (max-width: 1080px) {
+    #logo {
+      width: auto;
+      height: auto;
+      margin: -20px 45px;
+      padding-top: 15%;
+      max-width: 130px;
+      min-width: 100px;
+    
+    }
+  
+    #about-container {
+      height: 37%;
+      margin: 0 auto;
+    }
+    #b-container{
+      padding-top: 5%;
+    }
+    .a-container {
+      grid-column: 1/6;
+      justify-content: center;
+      line-height: 50px;
+      position:fixed;
+    }
+    
+   }
+   @media screen and (max-width: 767px){
+    #b-container{
+      grid-column: 1/6;
+    }
+    .a-container {
+      
+      justify-content: center;
+      line-height: 40px;
+      position:inherit;
+      text-align: center;
+    }
+    .social-icons li {
+      display: none;
+    }
+    .a-container br{
+      display:none;
+    }
+  
+  .a-container a {
+    text-decoration: none;
+    word-spacing: -60px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    
+  }
+  #h1 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+    font-size: 48px;
+    padding-bottom: 35px;  
+  }
+  
+  #b-container {
+    padding-top: 10%;
+  }
+  
+  #about-container #p2{
+    display: none;
+  }
+  
+  #h3 {
+    color: darksalmon;
+    font-size: 36px;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+  about-container {
+    height: 25%;
+    margin: 0 auto;
+  }
+   }
